@@ -117,7 +117,7 @@
 							<div class="hesap-menu">
 								<button class="hesap-buton">Hesap <img src="assets\images\foto\hesaplogo.png" /><i class="fas fa-chevron-down"></i></button>
 								<div class="menu-icerik">
-									<a href="" class="menu-item">Giriş Yap</a>
+									<a href="index2.php" class="menu-item">Giriş Yap</a>
 									<a href="#" class="menu-item">Kayıt Ol</a>
 								</div>
 							</div>
