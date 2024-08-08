@@ -567,52 +567,52 @@
 				<div class="brand-slider align-items-center">
 					<div class="col-lg-12">
 						<div class="brand-thumb">
-							<img src="assets/images/main-thumb/brand-thumb.png" alt="thumb">
+							<img src="assets/images/markalar/1.webp" alt="thumb">
 						</div>
 					</div>
 					<div class="col-lg-12">
 						<div class="brand-thumb">
-							<img src="assets/images/main-thumb/brand-thumb2.png" alt="thumb">
+							<img src="assets/images/markalar/2.webp" alt="thumb">
 						</div>
 					</div>
 					<div class="col-lg-12">
 						<div class="brand-thumb">
-							<img src="assets/images/main-thumb/brand-thumb3.png" alt="thumb">
+							<img src="assets/images/markalar/3.webp" alt="thumb">
 						</div>
 					</div>
 					<div class="col-lg-12">
 						<div class="brand-thumb">
-							<img src="assets/images/main-thumb/brand-thumb4.png" alt="thumb">
+							<img src="assets/images/markalar/4.webp" alt="thumb">
 						</div>
 					</div>
 					<div class="col-lg-12">
 						<div class="brand-thumb">
-							<img src="assets/images/main-thumb/brand-thumb5.png" alt="thumb">
+							<img src="assets/images/markalar/5.webp" alt="thumb">
 						</div>
 					</div>
 					<div class="col-lg-12">
 						<div class="brand-thumb">
-							<img src="assets/images/main-thumb/brand-thumb.png" alt="thumb">
+							<img src="assets/images/markalar/1.webp" alt="thumb">
 						</div>
 					</div>
 					<div class="col-lg-12">
 						<div class="brand-thumb">
-							<img src="assets/images/main-thumb/brand-thumb2.png" alt="thumb">
+							<img src="assets/images/markalar/2.webp" alt="thumb">
 						</div>
 					</div>
 					<div class="col-lg-12">
 						<div class="brand-thumb">
-							<img src="assets/images/main-thumb/brand-thumb3.png" alt="thumb">
+							<img src="assets/images/markalar/3.webp" alt="thumb">
 						</div>
 					</div>
 					<div class="col-lg-12">
 						<div class="brand-thumb">
-							<img src="assets/images/main-thumb/brand-thumb4.png" alt="thumb">
+							<img src="assets/images/markalar/4.webp" alt="thumb">
 						</div>
 					</div>
 					<div class="col-lg-12">
 						<div class="brand-thumb">
-							<img src="assets/images/main-thumb/brand-thumb5.png" alt="thumb">
+							<img src="assets/images/markalar/5.webp" alt="thumb">
 						</div>
 					</div>
 				</div>

@@ -58,20 +58,6 @@ input[type="checkbox"] {
   margin-right: 10px;
 }
 
-button {
-  background-color: #f44336;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
 .link-konteyner1 {
   text-align: center;
   margin-top: 12px;
