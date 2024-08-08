@@ -117,7 +117,7 @@
 						<div class="brand2-thumb">
 							<img src="assets/images/main-thumb/brand2-thumb.png" alt="thumb">
 							<div class="brand2-content">
-								<a href="#">Instagram Feed</a>
+								<a href="#">Instagram Gönderileri</a>
 							</div>
 						</div>
 					</div>
@@ -125,7 +125,7 @@
 						<div class="brand2-thumb">
 							<img src="assets/images/main-thumb/brand2-thumb2.png" alt="thumb">
 							<div class="brand2-content">
-								<a href="#">Instagram Feed</a>
+								<a href="#">Instagram Gönderileri</a>
 							</div>
 						</div>
 					</div>
@@ -133,7 +133,7 @@
 						<div class="brand2-thumb">
 							<img src="assets/images/main-thumb/brand2-thumb3.png" alt="thumb">
 							<div class="brand2-content">
-								<a href="#">Instagram Feed</a>
+								<a href="#">Instagram Gönderileri</a>
 							</div>
 						</div>
 					</div>
@@ -141,7 +141,7 @@
 						<div class="brand2-thumb">
 							<img src="assets/images/main-thumb/brand2-thumb4.png" alt="thumb">
 							<div class="brand2-content">
-								<a href="#">Instagram Feed</a>
+								<a href="#">Instagram Gönderileri</a>
 							</div>
 						</div>
 					</div>
@@ -149,7 +149,7 @@
 						<div class="brand2-thumb">
 							<img src="assets/images/main-thumb/brand2-thumb5.png" alt="thumb">
 							<div class="brand2-content">
-								<a href="#">Instagram Feed</a>
+								<a href="#">Instagram Gönderileri</a>
 							</div>
 						</div>
 					</div>
@@ -157,7 +157,7 @@
 						<div class="brand2-thumb">
 							<img src="assets/images/main-thumb/brand2-thumb3.png" alt="thumb">
 							<div class="brand2-content">
-								<a href="#">Instagram Feed</a>
+								<a href="#">Instagram Gönderileri</a>
 							</div>
 						</div>
 					</div>

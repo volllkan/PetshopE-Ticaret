@@ -548,9 +548,9 @@
     function handleConfirmation(message, callback) {
       showConfirm(message, function (result) {
         if (result) {
-          console.log("You pressed Yes.");
+          console.log("You pressed Evet.");
         } else {
-          console.log("You pressed No.");
+          console.log("You pressed Hayır.");
         }
         if (callback) {
           callback(result);
@@ -563,9 +563,9 @@
     });
 
     $(".cartConfirm").on("click", function () {
-      handleConfirmation("Do you want to add to Cart list ?", function (result) {
+      handleConfirmation("Sepete Eklensin mi?", function (result) {
         if (result) {
-          window.location.href = "cart.html";
+          window.location.href = "cart.php";
         }
       });
     });

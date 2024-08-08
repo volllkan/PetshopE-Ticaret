@@ -42,6 +42,9 @@
 
 	<link rel="stylesheet" href="assets/css2/uyeform.css" type="text/css" media="all">
 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+
 </head>
 
 
@@ -117,8 +120,8 @@
 							<div class="hesap-menu">
 								<button class="hesap-buton">Hesap <img src="assets\images\foto\hesaplogo.png" /><i class="fas fa-chevron-down"></i></button>
 								<div class="menu-icerik">
-									<a href="index2.php" class="menu-item">Giriş Yap</a>
-									<a href="#" class="menu-item">Kayıt Ol</a>
+									<a href="uyeform.php" class="menu-item">Giriş Yap</a>
+									<a href="uye-kayit.php" class="menu-item">Kayıt Ol</a>
 								</div>
 							</div>
 						</ul>
@@ -156,7 +159,7 @@
 		</a>
 	</div>
 	<div class="hesap-menu">
-		<button class="hesap-buton"> <img src="assets\images\foto\hesaplogo.png" href="uye-formu.php" /></button>
+		<a href="uyeform.php"><button class="hesap-buton"> <img src="assets\images\foto\hesaplogo.png"/></button></a>
 		<!-- <div class="menu-icerik">
 			<a href="#" class="menu-item">Giriş Yap</a>
 			<a href="#" class="menu-item">Kayıt Ol</a>

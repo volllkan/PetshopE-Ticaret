@@ -1473,7 +1473,59 @@ ul.slick-dots li button {
 /*<!-- ============================================================== -->
  <!-- Cat Shop Footer Section Start Here -->
 <!-- ============================================================== -->*/
+.footer-custom-items .footer-item {
+  flex: 1;
+  text-align: center;
+  margin: 5px;
+  border: 1px solid #ccc; /* Gri renkte çerçeve */
+  border-radius: 10px; /* Yuvarlatılmış köşeler */
+  padding: 10px; /* İçerik ile çerçeve arasında boşluk */
+  background-color: #ffaaa5; /* Açık gri arka plan rengi, gerektiği gibi ayarlayabilirsiniz */
+}
 
+.footer-custom-items .footer-item a {
+  color: inherit; /* Metin rengi, öğenin kendisinden miras alınır */
+  display: inline-block; /* İkon ile metin arasındaki hizayı sağlar */
+}
+
+
+.footer-custom-items .footer-item a i {
+  color: white; /* You can use a specific shade of orange as needed */
+  margin-right: 5px; /* Space between icon and text */
+}
+
+.footer-custom-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.footer-custom-items .footer-item {
+  flex: 1;
+  text-align: center;
+  margin: 10px;
+}
+
+.footer-custom-items .footer-item a {
+  color: inherit; /* Adjust as needed */
+  display: inline-block; /* Align icon with text */
+}
+
+.footer-custom-items .footer-item i {
+  margin-right: 5px; /* Space between icon and text */
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .footer-custom-items {
+      flex-direction: column;
+  }
+
+  .footer-custom-items .footer-item {
+      flex: none;
+      margin-bottom: 20px;
+  }
+}
 
 .footer-logo img {
   width: 200px;

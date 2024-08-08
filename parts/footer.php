@@ -1,9 +1,9 @@
-<footer class="footer-section" >
+<footer class="footer-section">
 	<div class="container">
 		<div class="row" style="padding-top: 90px;">
-			<div class="col-lg-3 col-md-6 wow fadeInUp" >
+			<div class="col-lg-3 col-md-6 wow fadeInUp">
 				<div class="footer-logo">
-					<h6 style="color: orange; font-weight: bold; font-size: 40px" > <a href="index.php" title="Sarı Pati">SarıPati</a></h6>
+					<h6 style="color: orange; font-weight: bold; font-size: 40px"> <a href="index.php" title="Sarı Pati">SarıPati</a></h6>
 				</div>
 				<div class="footer-desc">
 					<p>Curabitur venenatis finibus neque et magna eu vehicula. Aliquam purus sem, rhoncus bibendum.</p>
@@ -64,25 +64,33 @@
 					</div>
 				</div>
 			</div>
-		</div>	
-		<div class="footer-bottom">
-			<div class="row align-items-center">
-				<div class="col-lg-6 col-md-6">
-					<div class="footer-bottom-desc wow fadeInLeft">
-						<p>Telif Hakkı 2023 @ Unique-Theme. Tüm hakları saklıdır.</p>
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-6">
-					<div class="footer-bottom-link wow fadeInLeft">
-						<ul>
-							<li><a href="#">Gizlilik</a></li>
-							<li><a href="#">Şartlar</a></li>
-							<li><a href="#">Satın Alma</a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
 		</div>
+		<div class="footer-bottom">
+		<div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay=".8s">
+                <div class="footer-custom-items">
+                    <div class="footer-item">
+                        <a href="contact.php"><i class="fas fa-info-circle"></i> Bize Ulaşın</a>
+                    </div>
+                    <div class="footer-item">
+                        <a href="contact.php"><i class="fas fa-comments"></i> İletişime Geçin</a>
+                    </div>
+                    <div class="footer-item">
+                        <a href="index.php"><i class="fas fa-truck"></i> Sipariş Takibi</a>
+                    </div>
+                    <div class="footer-item">
+                        <a href="shop.php"><i class="fas fa-store"></i> Mağazalarımız</a>
+                    </div>
+                    <div class="footer-item">
+                        <a href="contact.php"><i class="fas fa-question-circle"></i> Sıkça Sorulan Sorular</a>
+                    </div>
+                    <div class="footer-item">
+                        <a href="tel:05466814550"><i class="fas fa-phone-alt"></i> 0546 681 4550</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+		</div>
+	</div>
 	</div>
 	<div class="footer-shape">
 		<div class="footer-shape1">

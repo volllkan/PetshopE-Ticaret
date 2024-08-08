@@ -1,39 +1,110 @@
-/* .giris-konteyner1 {
-  width: 300px;
-  margin: auto;
+
+
+.arka-plan{
+  background: linear-gradient(135deg, #f9a825, #fff4e0);
+  width: 100vw; /* Ekranın tamamını kaplar */
+  height: 100vh; /* Ekranın tamamını kaplar */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container5 {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-input[type="email"], input[type="password"] {
+  max-width: 400px;
   width: 100%;
-  padding: 10px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
+  margin: auto;
+  margin-bottom: 200px;
+  margin-top: 200px;
 }
 
-input[type="checkbox"] {
-  margin-right: 10px;
+
+
+.form-container5 button:hover{
+  background-color: orangered;
 }
 
-button {
-  background-color: #f44336;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
+.toggle-buttons5 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.toggle-buttons5 button {
+  background-color: orange;
+}
+
+.toggle-btn5 {
+  background-color: #f36f6f;
+  color: #fff;
   border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
   cursor: pointer;
-  width: 100%;
+  transition: background-color 0.3s ease;
 }
 
-button:hover {
-  opacity: 0.8;
+.toggle-btn5:hover {
+  background-color: #e55e5e;
 }
 
-.link-konteyner1 {
-  text-align: center;
-  margin-top: 12px;
-} */
+.form5 {
+  display: none;
+}
+
+.form5.active5 {
+  display: block;
+}
+
+#login-form-inner5,
+#register-form-inner5 {
+  display: flex;
+  flex-direction: column;
+}
+
+#login-form-inner5 label,
+#register-form-inner5 label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+#login-form-inner5 input,
+#register-form-inner5 input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#login-form-inner5 button,
+#register-form-inner5 button {
+  background-color: orange;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#login-form-inner5 button:hover,
+#register-form-inner5 button:hover {
+  background-color: orangered;
+}
+
+@media (max-width: 600px) {
+  .form-container5 {
+      padding: 15px;
+  }
+
+  .toggle-buttons5 {
+      flex-direction: column;
+  }
+
+  .toggle-btn5 {
+      margin-bottom: 10px;
+  }
+}
