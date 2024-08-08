@@ -1,0 +1,82 @@
+
+
+.hesap-menu img {
+  width: 25px;
+  height: 25px;
+}
+
+
+/* Genel Stiller */
+.hesap-menu {
+  position: relative;
+  display: inline-block;
+}
+
+.hesap-buton {
+  background-color: white;
+  color: grey;
+  padding: 10px;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-icerik {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 25px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 15px;
+}
+
+.menu-item {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.menu-item:hover {
+  background-color: orange;
+  border-radius: 15px;
+}
+
+/* Ok İkonu için stil */
+.ok-icon {
+  vertical-align: middle;
+  height: 12px; /* İkon boyutu */
+}
+
+/* Butona tıklandığında menünün gösterilmesi */
+.hesap-buton:focus + .menu-icerik,
+.hesap-menu:hover .menu-icerik {
+  display: block;
+}
+
+
+
+
+
+
+#buttonContainer {
+  position: relative; /* Fixes the container at the bottom of the page */
+  bottom: 20px; /* Adjusts the distance from the bottom */
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center; /* Centers the buttons horizontally */
+  gap: 20px; /* Adds space between the buttons */
+  padding: 10px; /* Optional: Adds padding around the buttons */
+}
+
+.add-to-cart-btn {
+  background-color: #f0f0f0; /* Adds a background color to the button container */
+  padding: 10px 20px; /* Adds padding inside each button */
+  border-radius: 5px; /* Optional: Rounds the corners of the button */
+}
+
+a {
+  text-decoration: none; /* Removes underline from links */
+}

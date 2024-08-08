@@ -1,0 +1,140 @@
+
+.mobil-baslik4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobil-header4 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  padding: 10px;
+  background-color: white;
+  color: orange;
+  font-size: 16px;
+  position: relative;
+  width: 100%;
+  /* Pozisyon ayarı */
+}
+
+.menu-butonu4 {
+  cursor: pointer;
+  flex-grow: 1;
+}
+
+.menu-butonu4 img {
+  width: 20px
+  height: 20px
+}
+
+/* .arama-cubugu4 input {
+  width: 90%;
+  padding: 8px;
+}
+
+.arama-cubugu4 button {
+  padding: 8px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+} */
+
+.sepet4 img {
+  width: 24px;
+  height: 24px;
+}
+
+.sepet4{
+  order: 3;
+}
+
+.hesap-menu{
+  order: 2;
+}
+
+.sepet-sayisi4 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: blue;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 5px;
+}
+
+.dropdown-menu4 {
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  top: 50px;
+  /* Üst kısmı kaplamayacak şekilde pozisyonlandırma */
+  display: none;
+  /* Başlangıçta gizli */
+  opacity: 0;
+  /* Başlangıçta görünmez */
+  transition: opacity 0.5s;
+  /* Geçiş efekti */
+}
+
+.menu-item4 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  color: darkblue;
+
+}
+
+.menu-item4 img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.menu-item4:hover { 
+  background-color: #f1f1f1; /* Hover efekti */
+}
+
+.arama-cubugu4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Genişliği tam ekran kaplar */
+  padding: 0 10px; /* İçten boşluk */
+}
+
+.arama-cubugu4 input {
+  flex-grow: 1; /* İnput, mümkün olan tüm alanı kaplar */
+  padding: 10px 20px;
+  font-size: 16px; /* Metin boyutu */
+  border: 2px solid #ccc; /* Kenarlık rengi ve kalınlığı */
+  border-radius: 30px; /* Yuvarlak kenarlar */
+  outline: none; /* Odaklandığında kenarlık kaldırıldı */
+}
+
+.arama-cubugu4 button {
+  width: 40px; /* Buton genişliği */
+  height: 40px; /* Buton yüksekliği */
+  margin-left: -40px; /* İnput ile buton arasındaki mesafeyi sıfırla */
+  border: none;
+  cursor: pointer;
+  border-radius: 30%; /* Buton yuvarlak yap */
+  outline: none; /* Odaklandığında kenarlık kaldırıldı */
+}
+
+.arama-cubugu4 button i {
+  color: #333; /* İkon rengi */
+  font-size: 10px; /* İkon boyutu */
+  margin-bottom: 9px;
+}
+.arama-cubugu4 input[type="text"] {
+  padding: 10px 20px;
+  margin-bottom: 9px; /* Alt kısım ile içerik arasına 2px boşluk ekle */
+  border: 2px solid #ccc;
+  border-radius: 50px;
+  outline: none;
+}
